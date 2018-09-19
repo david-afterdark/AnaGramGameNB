@@ -250,6 +250,8 @@ public class Anagrams extends JFrame {
     private void nextTrialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextTrialActionPerformed
         wordIdx = (wordIdx + 1) % wordLibrary.getSize();
 
+
+        
         feedbackLabel.setText(" ");
         scrambledWord.setText(wordLibrary.getScrambledWord(wordIdx));
         guessedWord.setText("");
